@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSadv-Session2-Assgn-2</title>
+
+<script>
+	function outer(a) {
+		return function inner(b) {
+			return a*b;
+		}
+	}
+	var a = outer(11);
+	result = a(100);
+	alert(result);
+</script>
+</head>
+</html>
